@@ -354,7 +354,7 @@
         }
     },
     "variables": {
-        "WebAppImageName": "DOCKER|openaichatregistry.azurecr.io/ChatAppNew:latest",
+        "WebAppImageName": "DOCKER|index.docker.io/ChatAppNew:latest",
         "cosmosdb_account_name": "[format('db-{0}', parameters('WebsiteName'))]",
         "cosmosdb_database_name": "db_conversation_history",
         "cosmosdb_container_name": "conversations",
