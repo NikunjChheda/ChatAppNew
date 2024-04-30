@@ -4,7 +4,7 @@
     "parameters": {
         "HostingPlanName": {
             "type": "string",
-            "defaultValue": "[guid(resourceGroup().id)]",
+            "defaultValue": "ChatBotTemplate_HostingPlan",
             "metadata": {
                 "description": "Name of App Service plan"
             }
@@ -32,14 +32,14 @@
         },
         "WebsiteName": {
             "type": "string",
-            "defaultValue": "[guid(resourceGroup().id)]",
+            "defaultValue": "ChatBotWebSite",
             "metadata": {
                 "description": "Name of Web App"
             }
         },
         "ApplicationInsightsName": {
             "type": "string",
-            "defaultValue": "[guid(resourceGroup().id)]",
+            "defaultValue": "ChatBot_Insights",
             "metadata": {
                 "description": "Name of Application Insights"
             }
